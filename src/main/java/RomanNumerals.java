@@ -4,24 +4,27 @@ public class RomanNumerals {
         String romanNumeral = "";
 
         while (amount > 0) {
-            if (amount >= 50) {
-                romanNumeral += "L";
-                amount -= 50;
-                continue;
+
+            for(Numerals numeral : Numerals.values()) {
+                if (amount >= numeral.decimal) {
+                romanNumeral += numeral;
+                amount -= numeral.decimal;
             }
-            if (amount >= 10) {
-                romanNumeral += "X";
-                amount -= 10;
-                continue;
             }
-            if (amount >= 5) {
-                romanNumeral += "V";
-                amount -= 5;
-                continue;
-            }
-            romanNumeral += "I";
-            amount -= 1;
         }
         return romanNumeral;
+    }
+
+    enum Numerals {
+        L(50),
+        X(10),
+        V(5),
+        I(1);
+
+        private int decimal;
+
+        Numerals(int decimal) {
+            this.decimal = decimal;
+        }
     }
 }

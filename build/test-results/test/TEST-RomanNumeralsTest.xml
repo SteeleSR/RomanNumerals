@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="RomanNumeralsTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-09-07T08:44:24" hostname="DESKTOP-L3DS2QF" time="0.033">
+<testsuite name="RomanNumeralsTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-09-07T09:06:57" hostname="Codurances-MacBook-Pro.local" time="0.94">
   <properties/>
-  <testcase name="shouldReturnVWhenGiven5()" classname="RomanNumeralsTest" time="0.022"/>
+  <testcase name="shouldReturnVWhenGiven5()" classname="RomanNumeralsTest" time="0.482"/>
   <testcase name="shouldReturnXWhenGiven10()" classname="RomanNumeralsTest" time="0.001"/>
-  <testcase name="shouldReturnIIWhenGiven2()" classname="RomanNumeralsTest" time="0.001"/>
-  <testcase name="shouldReturnXIWhenGiven11()" classname="RomanNumeralsTest" time="0.001"/>
-  <testcase name="shouldReturnIWhenGiven1()" classname="RomanNumeralsTest" time="0.001"/>
-  <testcase name="shouldReturnVIWhenGiven6()" classname="RomanNumeralsTest" time="0.0"/>
-  <testcase name="shouldReturnLWhenGiven50()" classname="RomanNumeralsTest" time="0.001"/>
-  <testcase name="shouldReturnIIIWhenGiven3()" classname="RomanNumeralsTest" time="0.001"/>
+  <testcase name="shouldReturnIIWhenGiven2()" classname="RomanNumeralsTest" time="0.005"/>
+  <testcase name="shouldReturnXIWhenGiven11()" classname="RomanNumeralsTest" time="0.003"/>
+  <testcase name="shouldReturnIWhenGiven1()" classname="RomanNumeralsTest" time="0.002"/>
+  <testcase name="shouldReturnVIWhenGiven6()" classname="RomanNumeralsTest" time="0.002"/>
+  <testcase name="shouldReturnLWhenGiven50()" classname="RomanNumeralsTest" time="0.039"/>
+  <testcase name="shouldReturnIIIWhenGiven3()" classname="RomanNumeralsTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
