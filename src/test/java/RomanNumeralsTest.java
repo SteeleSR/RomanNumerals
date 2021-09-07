@@ -51,4 +51,64 @@ public class RomanNumeralsTest {
         RomanNumerals romanNumerals = new RomanNumerals();
         assertEquals("L", romanNumerals.convert(50));
     }
+
+    @Test
+    public void shouldReturnCWhenGiven100() {
+        RomanNumerals romanNumerals = new RomanNumerals();
+        assertEquals("C", romanNumerals.convert(100));
+    }
+
+    @Test
+    public void shouldReturnDWhenGiven500() {
+        RomanNumerals romanNumerals = new RomanNumerals();
+        assertEquals("D", romanNumerals.convert(500));
+    }
+
+    @Test
+    public void shouldReturnMWhenGiven1000() {
+        RomanNumerals romanNumerals = new RomanNumerals();
+        assertEquals("M", romanNumerals.convert(1000));
+    }
+
+    @Test
+    public void shouldReturnIVWhenGiven4() {
+        RomanNumerals romanNumerals = new RomanNumerals();
+        assertEquals("IV", romanNumerals.convert(4));
+    }
+
+    @Test
+    public void shouldReturnIXWhenGiven9() {
+        RomanNumerals romanNumerals = new RomanNumerals();
+        assertEquals("IX", romanNumerals.convert(9));
+    }
+
+    @Test
+    public void shouldReturnXLWhenGiven40() {
+        RomanNumerals romanNumerals = new RomanNumerals();
+        assertEquals("XL", romanNumerals.convert(40));
+    }
+
+    @Test
+    public void shouldReturnXCWhenGiven90() {
+        RomanNumerals romanNumerals = new RomanNumerals();
+        assertEquals("XC", romanNumerals.convert(90));
+    }
+
+    @Test
+    public void shouldReturnCDWhenGiven400() {
+        RomanNumerals romanNumerals = new RomanNumerals();
+        assertEquals("CD", romanNumerals.convert(400));
+    }
+
+    @Test
+    public void shouldReturnCMWhenGiven900() {
+        RomanNumerals romanNumerals = new RomanNumerals();
+        assertEquals("CM", romanNumerals.convert(900));
+    }
+
+    @Test
+    public void shouldReturnMMMCDLIWhenGiven3451() {
+        RomanNumerals romanNumerals = new RomanNumerals();
+        assertEquals("MMMCDLI", romanNumerals.convert(3451));
+    }
 }

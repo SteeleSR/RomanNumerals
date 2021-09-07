@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="RomanNumeralsTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-09-07T09:06:57" hostname="Codurances-MacBook-Pro.local" time="0.94">
+<testsuite name="RomanNumeralsTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2021-09-07T09:26:52" hostname="DESKTOP-L3DS2QF" time="0.057">
   <properties/>
-  <testcase name="shouldReturnVWhenGiven5()" classname="RomanNumeralsTest" time="0.482"/>
+  <testcase name="shouldReturnVWhenGiven5()" classname="RomanNumeralsTest" time="0.037"/>
   <testcase name="shouldReturnXWhenGiven10()" classname="RomanNumeralsTest" time="0.001"/>
-  <testcase name="shouldReturnIIWhenGiven2()" classname="RomanNumeralsTest" time="0.005"/>
-  <testcase name="shouldReturnXIWhenGiven11()" classname="RomanNumeralsTest" time="0.003"/>
-  <testcase name="shouldReturnIWhenGiven1()" classname="RomanNumeralsTest" time="0.002"/>
-  <testcase name="shouldReturnVIWhenGiven6()" classname="RomanNumeralsTest" time="0.002"/>
-  <testcase name="shouldReturnLWhenGiven50()" classname="RomanNumeralsTest" time="0.039"/>
-  <testcase name="shouldReturnIIIWhenGiven3()" classname="RomanNumeralsTest" time="0.002"/>
+  <testcase name="shouldReturnCDWhenGiven400()" classname="RomanNumeralsTest" time="0.0"/>
+  <testcase name="shouldReturnXCWhenGiven90()" classname="RomanNumeralsTest" time="0.0"/>
+  <testcase name="shouldReturnIIWhenGiven2()" classname="RomanNumeralsTest" time="0.0"/>
+  <testcase name="shouldReturnXIWhenGiven11()" classname="RomanNumeralsTest" time="0.0"/>
+  <testcase name="shouldReturnXLWhenGiven40()" classname="RomanNumeralsTest" time="0.0"/>
+  <testcase name="shouldReturnIWhenGiven1()" classname="RomanNumeralsTest" time="0.0"/>
+  <testcase name="shouldReturnCMWhenGiven900()" classname="RomanNumeralsTest" time="0.0"/>
+  <testcase name="shouldReturnVIWhenGiven6()" classname="RomanNumeralsTest" time="0.0"/>
+  <testcase name="shouldReturnDWhenGiven500()" classname="RomanNumeralsTest" time="0.001"/>
+  <testcase name="shouldReturnCWhenGiven100()" classname="RomanNumeralsTest" time="0.001"/>
+  <testcase name="shouldReturnLWhenGiven50()" classname="RomanNumeralsTest" time="0.0"/>
+  <testcase name="shouldReturnIVWhenGiven4()" classname="RomanNumeralsTest" time="0.0"/>
+  <testcase name="shouldReturnMWhenGiven1000()" classname="RomanNumeralsTest" time="0.001"/>
+  <testcase name="shouldReturnMMMCDLIWhenGiven3451()" classname="RomanNumeralsTest" time="0.001"/>
+  <testcase name="shouldReturnIXWhenGiven9()" classname="RomanNumeralsTest" time="0.001"/>
+  <testcase name="shouldReturnIIIWhenGiven3()" classname="RomanNumeralsTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
